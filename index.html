@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+<div class="wraper">
+    <header class="header">
+        <div class="header__body">
+            <div class="header__title">
+                <h1>Lab5</h1>
+            </div>
+        </div>
+    </header>
+    <content class="content">
+        <div class="content__body">
+            <div class="content__task task1">
+                <div class="task1__title title">
+                    <h2>Task1</h2>
+                </div>
+                <div class="task1__body">
+                    <div class="task1__row">
+                        <div class="task1__label"><label for="width">Ширина</label></div>
+                        <div class="task1__input"><input type="number" id="width"></div>
+                    </div>
+                    <div class="task1__row">
+                        <div class="task1__label"><label for="height">Висота</label></div>
+                        <div class="task1__input"><input type="number" id="height"></div>
+
+                    </div>
+                    <div class="task1__row">
+                        <div class="task1__label">Площа</div>
+                        <div class="task1__result">null</div>
+                    </div>
+                    <div class="task1__row">
+                        <div class="task1__label">Периметр</div>
+                        <div class="task1__result">null</div>
+                    </div>
+                    <div class="task1__row">
+                        <div class="task1__label">Діагональ</div>
+                        <div class="task1__result">null</div>
+                    </div>
+                </div>
+            </div>
+            <div class="content__task task2">
+                <div class="task2__title title">
+                    <h2>Task2</h2>
+                </div>
+                <div class="task2__body">
+                    <div class="task2__row">
+                        <div class="task2__item">
+                            <img src="img/file1.png" alt="foto1">
+                        </div>
+                        <div class="task2__item">
+                            <img src="img/file2.png" alt="foto2">
+                        </div>
+                        <div class="task2__item">
+                            <img src="img/file3.png" alt="foto3">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="content__task task3">
+                <div class="task3__title title">
+                    <h2>Task3</h2>
+                </div>
+                <div class="task3__body">
+                    <div class="task3__row">
+                        <textarea name="uaText" id="uaText" placeholder="Спробуй"></textarea>
+                    </div>
+                    <div class="task3__row">
+                        <textarea name="euText" id="euText" placeholder="Sprobuy"></textarea>
+                    </div>
+                </div>
+            </div>
+            <div class="content__task task4">
+                <div class="task4__title title">
+                    <h2>Task4</h2>
+                </div>
+                <div class="task4__body">
+                    <form name="daysForm" action="" class="task4__form" id="daysForm">
+                        <label for="day" class="task4__label">Day</label>
+                        <div class="task4__input"><input type="number" id="day" name="day" min="1" , max="31"></div>
+                        <label for="month" class="task4__label">Month</label>
+                        <div class="task4__input"><input type="number" id="month" name="month" min="1" , max="12"></div>
+                        <label for="year" class="task4__label">Year</label>
+                        <div class="task4__input"><input type="number" id="year" name="year" min="1000"></div>
+                    </form>
+                    <button class="task4__button" name="">Провірити</button>
+                    <br>
+                    <div class="task4__label">
+                        Your day of birth:
+                    </div>
+                    <div class="task4__result">
+                        null
+                    </div>
+                </div>
+            </div>
+        </div>
+    </content>
+</div>
+<script src="js/script.js"></script>
+</body>
+</html>
